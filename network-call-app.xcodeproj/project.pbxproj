@@ -11,6 +11,7 @@
 		BEF14E3B2D48F763009E39FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF14E3A2D48F763009E39FD /* ContentView.swift */; };
 		BEF14E3D2D48F764009E39FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF14E3C2D48F764009E39FD /* Assets.xcassets */; };
 		BEF14E402D48F764009E39FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF14E3F2D48F764009E39FD /* Preview Assets.xcassets */; };
+		BEF14E472D4917D7009E39FD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BEF14E462D4917D7009E39FD /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		BEF14E3A2D48F763009E39FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEF14E3C2D48F764009E39FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF14E3F2D48F764009E39FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEF14E462D4917D7009E39FD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BEF14E482D49180E009E39FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,8 @@
 		BEF14E2C2D48F763009E39FD = {
 			isa = PBXGroup;
 			children = (
+				BEF14E482D49180E009E39FD /* README.md */,
+				BEF14E462D4917D7009E39FD /* .gitignore */,
 				BEF14E372D48F763009E39FD /* network-call-app */,
 				BEF14E362D48F763009E39FD /* Products */,
 			);
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF14E402D48F764009E39FD /* Preview Assets.xcassets in Resources */,
+				BEF14E472D4917D7009E39FD /* .gitignore in Resources */,
 				BEF14E3D2D48F764009E39FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
